@@ -1,0 +1,88 @@
+
+
+.aboutButton {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.aboutButton:hover {
+  color: #009CD7;
+}
+a {
+    color: white;
+    transition: color 0.5s;
+    text-decoration: none;
+  }
+a:hover {
+    color:#009CD7;
+  }
+
+
+
+
+.skillsButton {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.skillsButton:hover {
+    color: #009CD7; 
+    font-size: 22px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+ }  
+a {
+    color: white;
+    transition: color 0.5s;
+  }
+a:hover {
+    color:#009CD7;
+  }
+
+
+.UXUIButton {
+    font-weight: bold;
+    cursor: pointer;
+}
+.UXUIButton:hover {
+  color: #009CD7;
+}
+a {
+    color: white;
+    transition: color 0.5s;
+    text-decoration: none;
+  }
+a:hover {
+    color:#009CD7;
+  }
+
+
+.GraphicButton {
+    font-weight: bold;
+    cursor: pointer;
+}
+.GraphicButton:hover {
+  color: #009CD7;
+}
+a {
+    color: white;
+    transition: color 0.5s;
+    text-decoration: none;
+  }
+a:hover {
+    color:#009CD7;
+  }
+
+
+
+.AvatarPic {
+    width: 270px; 
+    height: 270px;
+   
+  }
+.AvatarPic:hover {
+    transform: scale(1.2);
+
+  }
+  
+
