@@ -3,6 +3,16 @@
 <title>My name is JOM</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="./css/stylesheet.css"/>
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1V6LTWDYWR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1V6LTWDYWR');
+</script> </head>
 
 <style>
 body {font-family: "Roboto", sans-serif}
@@ -96,8 +106,7 @@ body {font-family: "Roboto", sans-serif}
 <!-- Adobe icons -->
     <div style="width: 337px; height: 61px; left: 146px; top: 154px; position: absolute">
       <img style="width: 337px; height: 61px; left: 0px; top: 0px; position: absolute" src="images/Adobe icons.png" />
- 
-    </div>
+     </div>
   </div>
 
 <!-- graphic section -->
@@ -107,17 +116,28 @@ body {font-family: "Roboto", sans-serif}
   </div>
 
 
+<!-- COMMENT SECTION with BOOTSTRAP -->  
 
-<!-- contact -->  
- <div style="width: 1440px; height: 117px; left: 0px; top: 843px; position: absolute; background: #009CD7"></div>
- <div style="width: 630px; height: 60px; left: 104px; top: 878px; position: absolute">
-   <span style="color: black; font-size: 30px; font-family: Poppins; font-weight: 900; text-transform: capitalize; word-wrap: break-word">
-   Contact:</span>
+<div style="width: 1440px; height: 117px; left: 0px; top: 843px; position: absolute; background: #009CD7"></div>
+ <div style="width: 800px; height: 60px; left: 70px; top: 878px; position: absolute"> 
 
+   <span style="color: black; font-size: 30px; font-family: Poppins; font-weight: 900; text-transform: capitalize">
+   COMMENT:</span>
    <span style="color: black; font-size: 30px; font-family: Poppins; font-weight: 500; text-transform: capitalize; word-wrap: break-word"> </span>
-   <span style="color: black; font-size: 22px; font-family: Poppins; font-weight: 400; text-transform: capitalize; word-wrap: break-word">
-     designByJom@yahoo.com</span>
-   </div> 
+   <span style="color: black; font-size: 22px; font-family: Poppins; font-weight: 400; text-transform: capitalize; word-wrap: break-word"> </span>
+    <form>
+      <div class="form-group">    
+        <label for="exampleInputEmail1">Name</label>
+        <input class="form-gtop" type="text" placeholder="Name" required name="Name">
+        <label for="exampleInputEmail1">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <label for="exampleInputPassword1">Message</label> 
+         <input type="Message" class="form-control" id="exampleInputPassword1" placeholder="Message">  
+      <button type="submit" class="btn btn-primary">SEND</button>
+      
+       </div>
+    </form>
+ </div> 
    
  <!-- social media section -->
   <div style="width: 245px; height: 72px; left: 1090px; top: 864px; position: absolute">
@@ -125,80 +145,6 @@ body {font-family: "Roboto", sans-serif}
     <img style="width: 57px; height: 72px; left: 188px; top: 0px; position: absolute" src="images/Web Icon.png" />
     <img style="width: 45px; height: 68px; left: 103px; top: 1px; position: absolute" src="images/Mask group.png" />
   </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Navbar from other class activity -->
-
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
-</div>
-
-<!-- Page content -->
-
-
-  <!-- The Tour Section -->
-  <div class="w3-black" id="tour">
-    <div class="w3-container w3-content w3-padding-64" id="tourFade">
-      <h2 class="w3-wide w3-center">CONTACT</h2>
-      <p class="w3-opacity w3-center"><i>Please send me the notes!</i></p><br>
-    </div>
-  </div>
-
-  <!-- The Contact Section -->
-      <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:20 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
-        </form>
-    </div>
-  </div>
-
-<!-- End Page Content -->
-
-<!--To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp-->
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.designbyjom.com" target="_blank">Design By Jom</a></p>
-</footer>
-
-<div class="preloader">
-  <img src="images/ColorWheel.webp">
 </div>
 
 <script src="./js/index.js"></script>
